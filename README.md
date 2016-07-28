@@ -34,4 +34,4 @@ Note: The RewriteRequest method will unpack the state parameter and place its co
 
 ## Disclaimer
 
-This is released under the [MIT](LICENCE.txt) licence.  Do what you want 
+This is released under the [MIT](LICENCE.txt) licence.  Do what you want with it.
