@@ -30,7 +30,8 @@ This is needed because Microsoft requires that any extra querystring parameters 
 redirect be packed into a single parameter called `state`.  Since `OAuthWebSecurity` needs
 two parameters, `__provider__` and `__sid__` - we have to rewrite the url.
 
+Note: The RewriteRequest method will unpack the state parameter and place its contents back into the regular querystring. So if you are looking for a state value such as ReturnUrl, you will find it has been moved to Request.QueryString["ReturnUrl"].
 
 ## Disclaimer
 
-I don't work for Google, Microsoft, or DNOA.  This is released under the [MIT](LICENCE.txt) licence.  Do what you want 
+This is released under the [MIT](LICENCE.txt) licence.  Do what you want 
